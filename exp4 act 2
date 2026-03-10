@@ -1,0 +1,7 @@
+# Product prices
+prices = [120, 250, 75, 300]
+
+# Calculate total bill
+total = sum(prices)
+
+print("Total Bill:", total)

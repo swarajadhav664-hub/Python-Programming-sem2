@@ -1,0 +1,22 @@
+#exp.7 act 1
+"""
+Created on Tue Apr 28 12:44:02 2026
+
+@author: swaranjali jadhav 
+"""
+class BankAccount:
+    def __init__(self, balance=0):
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print(f"Deposited: {amount}, New Balance: {self.balance}")
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            print(f"Withdrawn: {amount}, New Balance: {self.balance}")
+        else:
+            print("Insufficient balance")
+
+

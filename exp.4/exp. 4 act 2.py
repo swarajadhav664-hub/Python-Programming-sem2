@@ -1,0 +1,13 @@
+# exp.4 act 2
+"""
+Created on Tue Mar 10 13:41:58 2026
+
+@author:swaranjali jadhav
+"""
+# Product prices
+prices = [120, 250, 75, 300]
+
+# Calculate total bill
+total = sum(prices)
+
+print("Total Bill:", total)

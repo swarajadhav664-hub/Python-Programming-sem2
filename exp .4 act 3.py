@@ -1,0 +1,13 @@
+# exp4 act 3
+
+"""
+Created on Tue Mar 10 13:45:04 2026
+
+@author:swaranjali jadhav
+"""
+
+feedback = input("Enter feedback: ")
+
+reversed_feedback = feedback[::-1]
+
+print("Reversed Feedback:", reversed_feedback)

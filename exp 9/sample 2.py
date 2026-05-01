@@ -1,0 +1,17 @@
+# exp 9 sample 2
+"""
+Created on Fri May  1 22:34:23 2026
+
+@author:swaranjali jadhav
+"""
+
+import datetime
+# Get current date and time
+now = datetime.datetime.now()
+# Print current date
+print("Current Date:", now.strftime("%Y-%m-%d"))
+# Print current time
+print("Current Time:", now.strftime("%H:%M:%S"))
+
+# Print current weekday
+print("Weekday:", now.strftime("%A")) 
